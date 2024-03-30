@@ -1,0 +1,152 @@
+h1 {
+    color: brown;
+}
+
+*{
+    list-style-type: none;
+    padding: 15px;
+    margin: 0 auto;
+}
+body{
+    background-image: url("https://i.ebayimg.com/images/g/oC4AAOSwljRltIWe/s-l1600.png");
+    background-size: cover;
+    height: 100vh;
+}
+nav ul {
+    background-color: rgb(252, 47, 11);
+    padding: 50px;
+    color: rgb(238, 231, 231);
+    height: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  img {
+    width: 30px;
+    padding: 20px
+    height: 30px;
+  }
+  .verde {
+    background-color: rgb(51, 59, 59);
+    font-size: 15px;
+    margin: 10px;
+    padding: 30px;
+  }
+  #identity {
+    background-color: rgb(66, 75, 72);
+    font-size: 20px;
+    margin: 10px;
+    padding: 30px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-content: center;
+    justify-content:center;
+    width: 1px;
+    padding: 1px;
+    gap: 10px;
+  }
+  .grid0 {
+    width: 100px;
+    background-color: rgb(238, 141, 15);
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .grid1 {
+    width: 100px;
+    background-color: rgb(238, 141, 15);
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .grid2 {
+    width: 100px;
+    background-color: rgb(235, 139, 15);
+  }
+  .grid3 {
+    width: 100px;
+    background-color: rgb(235, 141, 19);
+  }
+  .grid4 {
+    width: 100px;
+    background-color: rgb(230, 139, 20);
+  }
+  .grid5 {
+    width: 100px;
+    background-color: rgb(233, 139, 16);
+  }
+  .grid6 {
+    width: 100px;
+    background-color: rgb(228, 137, 18);
+  }
+  .grid7 {
+    background-color: rgb(228, 136, 16);
+    width: 100px;
+  }
+  .grid8 {
+    background-color: rgb(226, 136, 17);
+    width: 100px;
+  }
+  .grid9 {
+    width: 100px;
+    background-color: rgb(226, 136, 17);
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .sidebar {
+    float: right;
+    width: 50px;
+    background-color: #09eedb;
+    padding: 100px;
+    border-radius: 5px;
+    justify-content:flex-end;
+    align-content: flex-end;
+  }
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: #000;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    .grid20 {
+    width: 100px;
+    background-color: rgb(226, 136, 17);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    }
+    .grid21 {
+        width: 100px;
+        background-color: rgb(226, 136, 17);
+        grid-column-start: 2;
+        grid-column-end: 4;
+        
+        }
+        .grid22 {
+            width: 100px;
+            background-color: rgb(226, 136, 17);
+            grid-column-start: 2;
+            grid-column-end: 4;
+             }
+             .sidebarleft {
+                float: left;
+                width: 50px;
+                background-color: #09eedb;
+                padding: 100px;
+                border-radius: 5px;
+                justify-content:flex-start;
+                align-content: flex-start;
+             }
+             .grid22 {
+                width: 1px;
+                background-color: rgb(226, 136, 17);
+                 }
+                 .icons {
+                    color: black;
+                    width: 1px;
+                    justify-content: center;
+                    align-items: center;
+                 }
